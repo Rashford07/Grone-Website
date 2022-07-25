@@ -485,10 +485,9 @@ a {
 .sixthSection-header h1 {
   margin: 1rem 0;
   font-size: 45px;
-  text-align:center;
 }
 .sixthSection-header p {
-  margin: 2rem auto;
+  margin: 2rem 0;
   max-width: 500px;
 }
 .sixthSection-body {
