@@ -485,7 +485,6 @@ a {
 .sixthSection-header h1 {
   margin: 1rem 0;
   font-size: 45px;
-  /* text-align: center; */
 }
 .sixthSection-header p {
   margin: 2rem 0;
@@ -493,16 +492,16 @@ a {
 }
 .sixthSection-body {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
 .sixthSection-body .profile {
   padding: 0;
-  margin-right: 5%;
+  margin-right: 0%;
   margin-bottom: 20px;
-  width: 24%;
+  width: 23%;
   max-width: 370px;
-  min-width: 250px;
+  min-width: 240px;
 }
 .sixthSection-body .profile img {
   height: 25rem;
