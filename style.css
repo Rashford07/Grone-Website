@@ -183,7 +183,7 @@ a {
   margin: 0;
 }
 .secondSection-wrapper {
-  margin: 1rem 6rem 4rem 6rem;
+  margin: 1rem 7rem 4rem 7rem;
 }
 .secondSection-header {
   font-size: 27px;
@@ -236,7 +236,7 @@ a {
   gap: 2rem;
 }
 .thirdSection-header {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .thirdSection-header h1 {
@@ -485,6 +485,7 @@ a {
 .sixthSection-header h1 {
   margin: 1rem 0;
   font-size: 45px;
+  /* text-align: center; */
 }
 .sixthSection-header p {
   margin: 2rem 0;
@@ -514,6 +515,9 @@ a {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+.sixthSection-body .profile h4 {
+  opacity: 70%;
 }
 @media screen and (max-width: 800px) {
   .sixthSection-body {
