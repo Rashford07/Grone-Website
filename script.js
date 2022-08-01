@@ -21,17 +21,15 @@ document.querySelectorAll(".nav-items li").forEach((n) =>
     navBar.classList.remove("active");
   })
 );
-console.log(enquiry);
+
 enquiry.forEach((enq) => {
   enq.addEventListener("click", (e) => {
-    console.log(e.target);
     e.target.classList.toggle("clicked");
     const p = enq.parentElement.nextElementSibling;
     if (p.style.display === "block") {
       p.style.display = "none";
     } else {
       p.style.display = "block";
-    }
-    console.log(enquiry.parentElement.nextElementSibling);
+    };
   });
 });
