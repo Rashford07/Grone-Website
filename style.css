@@ -73,7 +73,7 @@ a {
   .nav-items {
     position: fixed;
     right: -100%;
-    top: 80px;
+    top: 64px;
     bottom: 0px;
     flex-direction: column;
     width: 100%;
